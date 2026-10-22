@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "notice": "Demonstration graph only. Replace with cited standards, manuals, or expert-validated records before research or deployment.",
+  "nodes": [
+    {"id": "demo_impulse", "name": "impulsive anomaly", "type": "fault_pattern", "description": "Short-duration high residual or impulsive vibration candidate.", "keywords": ["spike", "impulse", "transient", "crest factor"], "actions": ["check sensor saturation and mounting", "inspect transient load or impact source"], "source": "unvalidated_demo_rule", "source_verified": false},
+    {"id": "demo_frequency", "name": "frequency-related anomaly", "type": "fault_pattern", "description": "Shift or emergence of spectral components relative to the target normal baseline.", "keywords": ["frequency", "spectrum", "harmonic", "dominant bin"], "actions": ["compare operating speed and load", "inspect rotating or switching components"], "source": "unvalidated_demo_rule", "source_verified": false},
+    {"id": "demo_amplitude", "name": "amplitude drift", "type": "fault_pattern", "description": "Change in raw window scale relative to target normal support.", "keywords": ["amplitude", "scale", "rms", "peak"], "actions": ["verify sensor calibration and mounting", "compare against recent condition-matched baseline"], "source": "unvalidated_demo_rule", "source_verified": false},
+    {"id": "demo_general", "name": "uncertain diagnosis", "type": "general", "description": "If evidence does not uniquely support a fault, report competing hypotheses and request inspection.", "keywords": ["uncertain", "insufficient evidence"], "actions": ["retain monitoring and request expert review"], "source": "unvalidated_demo_rule", "source_verified": false}
+  ]
+}
+

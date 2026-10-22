@@ -1,0 +1,18 @@
+{
+  "hidden": 48,
+  "latent": 24,
+  "source_domains": ["hydraulic", "paderborn", "pmsm"],
+  "stage1": {
+    "anomaly_lambda": 0.25,
+    "domain_lambda": 0.10,
+    "anomaly_loss_weight": 1.0,
+    "domain_loss_weight": 0.10
+  },
+  "deployment_score": {
+    "reconstruction": 0.60,
+    "uncertainty": 0.20,
+    "anchor": 0.20,
+    "mask_ratios": [0.0, 0.15, 0.30]
+  }
+}
+

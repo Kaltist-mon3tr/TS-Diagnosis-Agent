@@ -1,44 +1,12 @@
-@'
-# Python
 __pycache__/
 *.py[cod]
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-*.egg-info/
-build/
-dist/
-
-# Virtual environments
-.conda/
 .venv/
-venv/
-
-# Local credentials
 .env
 .env.*
-!.env.example
-secrets/
-*.pem
-*.key
-
-# Datasets and generated artifacts
-data/
-datasets/
-checkpoints/
 artifacts/
-runs/
-wandb/
+data/synthetic/
 *.pt
 *.pth
-*.ckpt
-*.safetensors
-*.onnx
-*.log
-
-# Local editor and OS files
-.idea/
-.vscode/
-Thumbs.db
+.pytest_cache/
 .DS_Store
-'@ | Set-Content -LiteralPath '.gitignore' -Encoding utf8
+

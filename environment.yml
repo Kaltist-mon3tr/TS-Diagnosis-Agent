@@ -1,0 +1,12 @@
+name: ts-diagnosis-agent
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy>=1.24
+  - pytorch>=2.1
+  - pip
+  - pip:
+      - neo4j>=5.20
+
